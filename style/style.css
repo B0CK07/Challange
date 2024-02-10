@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    background: rgb(44, 44, 44);
+}
+ 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ctverec{
+    width: 600px;
+    height:1000px;
+    background: rgb(44, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.karta{
+    background-color: rgba(0, 0, 0/100%);
+    backdrop-filter: blur(10px);
+    width: 296px;
+    height: 173px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.jmeno_cislo{
+    margin-top: 15px;
+}
+.jmeno_cislo p{
+    margin: 0;
+    padding-top: 5px;
+}
+.platnost{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+#cislo{
+    font-weight: bold;
+    font-size: large;
+}
+#datum{
+    font-weight: bold;
+}
+.platnost p{
+    margin: 0;
+}
+.obrazek img{
+    height: 43px;
+}
+.obrazek{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: white;
+    letter-spacing: 10px;
+}
+.nadpis{
+    margin: 50px;
+}
+ 
+.eclipse{
+    position: absolute;
+    top: 235px;
+    right: 60px;
+}
+.eclipse2{
+    position: absolute;
+    top: 400px;
+    left: 70px;
+}
+.typecek{
+    position: absolute;
+    right: 0px;
+    top: 49px;
+}
+p{
+    color: white;
+}
