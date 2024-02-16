@@ -1,6 +1,9 @@
 body{
     margin: 0;
     background: rgb(44, 44, 44);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
  
 main{
@@ -19,11 +22,13 @@ main{
     position: relative;
 }
 .karta{
-    background-color: rgba(0, 0, 0/100%);
+    background-color: rgba(128, 128, 128, 0.2);
     backdrop-filter: blur(10px);
     width: 296px;
     height: 173px;
     border-radius: 20px;
+    border-style: solid solid none none;
+    border-color: gray;
     padding: 20px;
     display: flex;
     flex-direction: column;
